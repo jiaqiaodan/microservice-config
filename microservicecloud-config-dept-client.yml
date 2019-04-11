@@ -11,7 +11,7 @@ spring:
     name: microservicecloud-dept
   datasource:
     name: test
-    url: jdbc:mysql://127.0.0.1:3306/cloudDB01
+    url: jdbc:mysql://127.0.0.1:3306/springcloud
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
@@ -58,7 +58,7 @@ spring:
     name: microservicecloud-dept
   datasource:
     name: test
-    url: jdbc:mysql://127.0.0.1:3306/cloudDB02
+    url: jdbc:mysql://127.0.0.1:3306/springcloud02
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
